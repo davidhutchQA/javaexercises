@@ -22,7 +22,8 @@ public class WorkingWithFiles {
 		
 		populatePeopleArray();
 
-		//writePeopleToFile();
+		writePeopleToFile();
+		
 		readPeopleFromFile();
 		
 		System.out.println(peopleFromFiles.toString());
