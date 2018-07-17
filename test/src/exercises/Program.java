@@ -4,13 +4,26 @@ package exercises;
 public class Program {
 	public static void main(String[] args) {
 		
+		level2.Garage test=new level2.Garage();
+		System.out.println(test.getRepairCost(0));
+		System.out.println(test.getRepairCost(1));
+		System.out.println(test.getRepairCost(2)+"\n");
+		test.removeVehicle("Plane");
+		System.out.println(test.getRepairCost(0));
+		System.out.println(test.getRepairCost(1));
+		System.out.println(test.getRepairCost(2)+"\n");
+		test.removeVehicle(1);
+		System.out.println(test.getRepairCost(0));
+		System.out.println(test.getRepairCost(1));
+		System.out.println(test.getRepairCost(2)+"\n");
+		/*
 		level2.People test=new level2.People(12);
 		
 		test.addPerson("David Hutchinson", 32, "Trainee");
 		System.out.println(test.toString());
 		
 		System.out.println(test.findPerson("David Hutchinson"));
-		
+		*/
 		/*
 		level2.TooHot test=new level2.TooHot();
 		if (test.tooHot(91, false)) {

@@ -25,6 +25,10 @@ public class Person {
 		jobTitle=JOBTITLES[rand.nextInt(JOBTITLES.length)];
 	}
 	
+	/**
+	 * Get the name of the person
+	 * @return full name
+	 */
 	public String getName() {
 		return name;
 	}
