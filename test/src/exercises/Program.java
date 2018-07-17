@@ -4,11 +4,14 @@ package exercises;
 public class Program {
 	public static void main(String[] args) {
 		
+		level2.WorkingWithFiles test= new level2.WorkingWithFiles();
 		
+		/*
 		level2.PaintWizard test=new level2.PaintWizard();
 		
 		System.out.println(test.getLeastWaste());
 		System.out.println(test.getCheapestBrand());
+		*/
 		
 		/*
 		level2.Garage test=new level2.Garage();
