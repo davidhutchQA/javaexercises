@@ -4,6 +4,13 @@ package exercises;
 public class Program {
 	public static void main(String[] args) {
 		
+		
+		level2.PaintWizard test=new level2.PaintWizard();
+		
+		System.out.println(test.getLeastWaste());
+		System.out.println(test.getCheapestBrand());
+		
+		/*
 		level2.Garage test=new level2.Garage();
 		System.out.println(test.getRepairCost(0));
 		System.out.println(test.getRepairCost(1));
@@ -16,6 +23,8 @@ public class Program {
 		System.out.println(test.getRepairCost(0));
 		System.out.println(test.getRepairCost(1));
 		System.out.println(test.getRepairCost(2)+"\n");
+		*/
+		
 		/*
 		level2.People test=new level2.People(12);
 		
